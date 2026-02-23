@@ -841,7 +841,12 @@
             scroll-margin-top: 2rem !important;
         }
     }
-
+    
+    @media (max-width: 400px) {
+      .hero-name {
+        font-size: 1.8rem !important;
+      }
+    }
 
 
     #contact {
