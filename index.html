@@ -1,0 +1,278 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Hi, I'm Daniela</title>
+  <link rel="icon" type="image/svg+xml" href="snail.svg">
+  <link rel="stylesheet" href="style.css"/>
+  <script type="module" src="script.js"></script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  
+</head>
+<body>
+
+   <!-- NAV -->
+  <nav>
+    <a href="#home" class="nav-logo">
+        <img src="snail.svg" alt=" ">
+    </a>
+    <ul class="nav-links">
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contact">Contact</a></li>
+      <li><a href="#resume">Resume</a></li>
+    </ul>
+  </nav>
+
+  <!-- HERO -->
+  <section id="home">
+    <div class="hero-text">
+      <p class="hero-eyebrow fade-up">Portfolio</p>
+      <h1 class="hero-name fade-up delay-1">
+        <span class="static">Hi, I'm Daniela,</span>
+        <div class="rotating-wrap">
+          <div class="rotating-inner" id="rotatingInner">
+            <span>an industrial engineer.</span>
+            <span>a data scientist.</span>
+            <span>an illustrator.</span>
+            <span>a musician.</span>
+            <span>a tennis player.</span>
+            <!-- duplicate of first for seamless loop -->
+            <span>an industrial engineer.</span>
+          </div>
+        </div>
+      </h1>
+      <p class="hero-bio fade-up delay-2">
+        I solve problems with data, design, and a bit of obsession.
+      </p>
+
+      
+        <div class="menu">
+            <button class="menu-btn">
+                <span class="menu-text">Projects</span>
+                <div class="menu-links">
+                    <a href="#projects">View My Projects</a>
+                </div>
+            </button>
+            <button class="arrow"></button>
+        </div>
+    
+    </div>
+
+    <div class="hero-image-wrap fade-up delay-4">
+      <div class="hero-photo-circle">
+        <img src="Daniela_Headshot.png" alt="Daniela">
+      </div>
+    </div>
+  </section>
+
+  <!-- PROJECTS -->
+  <section id="projects">
+    <p class="section-label">Work</p>
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects-split">
+
+      <!-- Left: list -->
+      <div class="project-list" aria-label="Project list">
+        <div class="project-list-item active" data-index="0">
+          <span class="project-list-name">Taurizano Corp.</span>
+        </div>
+        <div class="project-list-item" data-index="1">
+          <span class="project-list-name">My Journal</span>
+        </div>
+        <div class="project-list-item" data-index="2">
+          <span class="project-list-name">Prize Money Calculator</span>
+        </div>
+        <div class="project-list-item" data-index="3">
+          <span class="project-list-name">Arboretum Dashboard</span>
+        </div>
+        <div class="project-list-item" data-index="4">
+          <span class="project-list-name">Arboretum Website</span>
+        </div>
+        <div class="project-list-item" data-index="5">
+          <span class="project-list-name">Arboretum StoryMaps</span>
+        </div>
+        <div class="project-list-item" data-index="6">
+          <span class="project-list-name">Venezuela's Economic Downfall</span>
+        </div>
+        <div class="project-list-item" data-index="7">
+          <span class="project-list-name">Darién's Infographic</span>
+        </div>
+      </div>
+
+      <!-- Right: preview panel -->
+      <div class="project-panel">
+        <div class="panel-content" id="panelContent">
+
+          <!-- Image area — replace src with your screenshot per project -->
+          <div class="panel-image" id="panelImage">
+            <img src="taurizano.png" alt="Taurizano website project">
+          </div>
+
+          <div class="panel-title-row">
+            <h3 class="panel-title" id="panelTitle">Taurizano Corp.</h3>
+            <a href="https://www.taurizano.com/" target="_blank" class="panel-link" id="panelLink">Visit Site →</a>
+          </div>
+
+          <p class="panel-desc" id="panelDesc">
+            A full website design and development for the real estate company Taurizano Corp.
+          </p>
+
+          <div class="panel-tags" id="panelTags">
+            <span class="panel-tag">Design & Development</span>
+            <span class="panel-tag">HTML</span>
+            <span class="panel-tag">CSS</span>
+            <span class="panel-tag">JavaScript</span>
+          </div>
+
+        </div>
+      </div>
+      <!-- Mobile: all cards stacked (visible only on small screens) -->
+      <div class="mobile-cards">
+        <!-- Cards are injected here by JS -->
+      </div>
+    </div>
+  </section>
+  
+  <!-- CONTACT -->
+  <section id="contact">
+    <p class="section-label">Get in Touch</p>
+    <h2 class="section-title">Contact</h2>
+    <div class="contact-grid">
+      <div>
+        <p class="contact-blurb">
+          I'd love to connect - whether it's about a project, a collaboration, or just to say hi. Do reach out :)
+        </p>
+        <div class="contact-item">
+          <span class="contact-item-label">Email</span>
+          <a href="mailto:danielaggwm@gmail.com" class="contact-item-value">danielaggwm@gmail.com</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-item-label">GitHub</span>
+          <a href="https://github.com/danielaggwm" target="_blank" class="contact-item-value">github.com/danielaggwm</a>
+        </div>
+        <div class="contact-item">
+          <span class="contact-item-label">LinkedIn</span>
+          <a href="https://www.linkedin.com/in/danielaggwm/" class="contact-item-value">linkedin.com/in/danielaggwm</a>
+        </div>
+      </div>
+      <form class="contact-form" onsubmit="handleSubmit(event)">
+        <div class="form-group">
+          <label for="name">Name</label>
+          <input type="text" id="name" name="name" placeholder="Your name" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" placeholder="your@email.com" required>
+        </div>
+        <div class="form-group">
+          <label for="message">Message</label>
+          <textarea id="message" name="message" placeholder="What's on your mind?" required></textarea>
+        </div>
+        <button type="submit" class="form-submit">Send Message</button>
+      </form>
+    </div>
+  </section>
+
+  <!-- RESUME -->
+  <section id="resume">
+    <p class="section-label">Background</p>
+    <h2 class="section-title">Resume</h2>
+    <a href="Resume_Daniela_Gonzalez.pdf" target="_blank" class="resume-download">
+      <svg width="16" height="16" viewBox="0 0 16 16" fill="none"><path d="M8 2v8M5 7l3 3 3-3M3 12h10" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Download Resume (PDF)
+    </a>
+
+    <div class="resume-section">
+      <p class="resume-section-title">Experience</p>
+      <div class="resume-entry">
+        <div class="resume-entry-main">
+          <p class="resume-role">Construction Project Manager</p>
+          <p class="resume-org">Taurizano Corp.</p>
+        </div>
+        <span class="resume-date">2020 – Present</span>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-main">
+          <p class="resume-role">Data Scientist Graduate Assistant</p>
+          <p class="resume-org">University of Miami</p>
+        </div>
+        <span class="resume-date">2024 – 2025</span>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-main">
+          <p class="resume-role">Industrial Engineer</p>
+          <p class="resume-org">Norwegian Cruise Line Holdings</p>
+        </div>
+        <span class="resume-date">2020</span>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-main">
+          <p class="resume-role">President of Club Tennis</p>
+          <p class="resume-org">University of Miami</p>
+        </div>
+        <span class="resume-date">2018 – 2020</span>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-main">
+          <p class="resume-role">Operations Analyst</p>
+          <p class="resume-org">Flamingo Park Tennis Center</p>
+        </div>
+        <span class="resume-date">2018 – 2019</span>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-main">
+          <p class="resume-role">Data Analyst Intern</p>
+          <p class="resume-org">Inpaco C.A.</p>
+        </div>
+        <span class="resume-date">2017</span>
+      </div>
+    </div>
+
+    <div class="resume-section">
+      <p class="resume-section-title">Education</p>
+      <div class="resume-entry">
+        <div class="resume-entry-main">
+          <p class="resume-role">B.S. Industrial Engineering</p>
+          <p class="resume-org">University of Miami</p>
+        </div>
+        <span class="resume-date">2020</span>
+      </div>
+      <div class="resume-entry">
+        <div class="resume-entry-main">
+          <p class="resume-role">M.S. Data Science</p>
+          <p class="resume-org">University of Miami</p>
+        </div>
+        <span class="resume-date">2025</span>
+      </div>
+    </div>
+
+    <div class="resume-section">
+      <p class="resume-section-title">Skills</p>
+      <div class="resume-entry">
+        <div class="resume-entry-main">
+          <p class="resume-org">HTML · CSS · JavaScript · ArcGIS · GitHub · Python · R · SQL · Illustrator · Photoshop </p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+    <footer>
+    <span class="footer-name">Daniela Gonzalez</span>
+
+    <div class="footer-socials">
+        <a href="https://www.linkedin.com/in/danielaggwm/" target="_blank" aria-label="LinkedIn">
+        <img src="linkedin.svg" alt="LinkedIn">
+        </a>
+
+        <a href="https://github.com/danielaggwm" target="_blank" aria-label="GitHub">
+        <img src="github.svg" alt="GitHub">
+        </a>
+    </div>
+    </footer>
+
+</body>
+</html>
