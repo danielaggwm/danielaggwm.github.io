@@ -1,71 +1,71 @@
 // ── Project data ──
     // Set "image" to your screenshot filename, e.g. "img/taurizano.png", or leave "" for placeholder
-    const projects = [
-      {
-        title: "Taurizano Corp.",
-        link: "https://www.taurizano.com/",
-        linkLabel: "Visit Site →",
-        image: "taurizano.png",
-        desc: "A full website design and development for the real estate company Taurizano Corp.",
-        tags: ["Design & Development","HTML", "CSS", "JavaScript"]
-      },
-      {
-        title: "My Journal",
-        link: "https://danielaggwm.github.io/journal/",
-        linkLabel: "Visit Site →",
-        image: "journal.png",
-        desc: "An online personal journal to track your habits, moods, and day to day adventures. It allows you to view your trends and search through your entries.",
-        tags: ["Design & Development", "HTML", "CSS", "JavaScript", "Python", "Firebase"]
-      },
-      {
-        title: "Prize Money Calculator",
-        link: "https://danielaggwm.github.io/prize_money/",
-        linkLabel: "Visit Site →",
-        image: "tennis.png",
-        desc: "An interactive data visualization exploring prize money across professional tennis events. It's a tool current professional players can use to track their points, rankings, and prizes.",
-        tags: ["JavaScript", "D3.js", "Python", "HTML", "CSS"]
-      },
-      {
-        title: "Arboretum Dashboard",
-        link: "https://um-arboretum.github.io/dashboard/",
-        linkLabel: "Visit Site →",
-        image: "map.png",
-        desc: "An interactive dashboard built for the University of Miami's John C. Gifford Arboretum to track and display climate data from 59 sensors.",
-        tags: ["HTML", "CSS", "JavaScript", "Data Viz", "R", "Python", "Mapbox", "ArcGIS"]
-      },
-      {
-        title: "Arboretum Website",
-        link: "https://um-arboretum.github.io/home/",
-        linkLabel: "Visit Site →",
-        image: "arboretum.png",
-        desc: "The home page for the University of Miami's John C. Gifford Arboretum, designed for accessibility and clarity.",
-        tags: ["Design & Development","HTML", "CSS", "JavaScript"]
-      },
-      {
-        title: "Arboretum StoryMaps",
-        link: "https://storymaps.arcgis.com/stories/d7c026766a9a40aaa422b8c400009d1d",
-        linkLabel: "View StoryMap →",
-        image: "arcgis.png",
-        desc: "An ArcGIS StoryMap that guides readers through the Arboretum's live data.",
-        tags: ["ArcGIS", "Data Viz"]
-      },
-      {
-        title: "Venezuela's Economic Downfall",
-        link: "https://danielaggwm.github.io/venezuela-economy/",
-        linkLabel: "Visit Site →",
-        image: "venezuela.png",
-        desc: "A data visualization project examining Venezuela's economic decline through illustrations, interactive visualizations, and storytelling.",
-        tags: ["JavaScript", "D3.js", "Data Viz", "Research"]
-      },
-      {
-        title: "Darién's Infographic",
-        link: "darien_infographic.pdf",
-        linkLabel: "Open PDF →",
-        image: "darien.png",
-        desc: "A visual infographic documenting the migration in the Darién Gap over the years, its geography, routes, and humanitarian impact.",
-        tags: ["Illustration", "Data Viz", "Cartography"]
-      }
-    ];
+const projects = [
+  {
+    title: "My Journal",
+    link: "https://danielaggwm.github.io/journal/",
+    linkLabel: "Visit Site →",
+    image: "journal.png",
+    desc: "An online personal journal to track your habits, moods, and day to day adventures. It allows you to view your trends and search through your entries.",
+    tags: ["Design & Development", "HTML", "CSS", "JavaScript", "Python", "Firebase"]
+  },
+  {
+    title: "Arboretum Dashboard",
+    link: "https://um-arboretum.github.io/dashboard/",
+    linkLabel: "Visit Site →",
+    image: "map.png",
+    desc: "An interactive dashboard built for the University of Miami's John C. Gifford Arboretum to track and display climate data from 59 sensors.",
+    tags: ["HTML", "CSS", "JavaScript", "Data Viz", "R", "Python", "Mapbox", "ArcGIS"]
+  },
+  {
+    title: "Arboretum Website",
+    link: "https://um-arboretum.github.io/home/",
+    linkLabel: "Visit Site →",
+    image: "arboretum.png",
+    desc: "The home page for the University of Miami's John C. Gifford Arboretum, designed for accessibility and clarity.",
+    tags: ["Design & Development","HTML", "CSS", "JavaScript"]
+  },
+  {
+    title: "Arboretum StoryMaps",
+    link: "https://storymaps.arcgis.com/stories/d7c026766a9a40aaa422b8c400009d1d",
+    linkLabel: "View StoryMap →",
+    image: "arcgis.png",
+    desc: "An ArcGIS StoryMap that guides readers through the Arboretum's live data.",
+    tags: ["ArcGIS", "Data Viz"]
+  },
+  {
+    title: "Prize Money Calculator",
+    link: "https://danielaggwm.github.io/prize_money/",
+    linkLabel: "Visit Site →",
+    image: "tennis.png",
+    desc: "An interactive data visualization exploring prize money across professional tennis events. It's a tool current professional players can use to track their points, rankings, and prizes.",
+    tags: ["JavaScript", "D3.js", "Python", "HTML", "CSS"]
+  },
+  {
+    title: "Venezuela's Economic Downfall",
+    link: "https://danielaggwm.github.io/venezuela-economy/",
+    linkLabel: "Visit Site →",
+    image: "venezuela.png",
+    desc: "A data visualization project examining Venezuela's economic decline through illustrations, interactive visualizations, and storytelling.",
+    tags: ["JavaScript", "D3.js", "Data Viz", "Research"]
+  },
+  {
+    title: "Darién's Infographic",
+    link: "darien_infographic.pdf",
+    linkLabel: "Open PDF →",
+    image: "darien.png",
+    desc: "A visual infographic documenting the migration in the Darién Gap over the years, its geography, routes, and humanitarian impact.",
+    tags: ["Illustration", "Data Viz", "Cartography"]
+  },
+  {
+    title: "Taurizano Corp.",
+    link: "https://www.taurizano.com/",
+    linkLabel: "Visit Site →",
+    image: "taurizano.png",
+    desc: "A full website design and development for the real estate company Taurizano Corp.",
+    tags: ["Design & Development","HTML", "CSS", "JavaScript"]
+  }
+];
 
     // ── Panel elements ──
     const panelContent = document.getElementById('panelContent');
