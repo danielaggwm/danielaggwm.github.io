@@ -840,23 +840,14 @@
         #resume {
             scroll-margin-top: 2rem !important;
         }
-      /* Allow rotating text to overflow horizontally while keeping the vertical clip for the animation */
-      .rotating-wrap {
-        overflow: visible;
-        clip-path: inset(0 -9999px);
-      }
-      .rotating-inner {
-        width: 100%;
-      }
-      .rotating-inner span {
-        width: 100%;
-        text-align: center;
+      .hero-name {
+        font-size: clamp(1.6rem, 5vw, 2rem);
       }
     }
-    
+
     @media (max-width: 400px) {
       .hero-name {
-        font-size: 1.8rem !important;
+        font-size: 1.4rem !important;
       }
     }
 
