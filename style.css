@@ -845,6 +845,13 @@
         overflow: visible;
         clip-path: inset(0 -9999px);
       }
+      .rotating-inner {
+        width: 100%;
+      }
+      .rotating-inner span {
+        width: 100%;
+        text-align: center;
+      }
     }
     
     @media (max-width: 400px) {
