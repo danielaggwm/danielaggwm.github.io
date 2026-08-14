@@ -322,7 +322,7 @@
     #projects {
         padding: 8rem;
          background: var(--warm-white);
-         height: 100vh;
+         min-height: 100vh;
      }
 
     .projects-split {
@@ -590,9 +590,9 @@
 
 
     /* ── CONTACT ── */
-    #contact { 
+    #contact {
         background: var(--cream);
-        height: 100vh;
+        min-height: 100vh;
     }
 
     .contact-grid {
