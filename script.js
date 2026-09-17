@@ -2,6 +2,14 @@
     // Set "image" to your screenshot filename, e.g. "img/taurizano.png", or leave "" for placeholder
 const projects = [
   {
+    title: "Miami Beach Botanical Garden",
+    link: "https://www.mbgarden.org/",
+    linkLabel: "Visit Site \u2192",
+    image: "miamibeach.png",
+    desc: "A visitor map and website design package for the Miami Beach Botanical Garden: a redesigned physical visitor map; an interactive visitor map featuring tree collections, garden routes, a pollinator catalogue, and location-based educational content; a new visitor parking map; and a full website redesign with new branding and logos.",
+    tags: ["Design & Development", "HTML", "CSS", "JavaScript", "ArcGIS", "Mapbox", "Illustrator"]
+  },
+  {
     title: "My Journal",
     link: "https://danielaggwm.github.io/journal/",
     linkLabel: "Visit Site →",
