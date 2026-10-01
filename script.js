@@ -65,14 +65,14 @@ const projects = [
     desc: "A visual infographic documenting the migration in the Darién Gap over the years, its geography, routes, and humanitarian impact.",
     tags: ["Illustration", "Data Viz", "Cartography"]
   },
-  {
-    title: "Taurizano Corp.",
-    link: "https://www.taurizano.com/",
-    linkLabel: "Visit Site →",
-    image: "taurizano.png",
-    desc: "A full website design and development for the real estate company Taurizano Corp.",
-    tags: ["Design & Development","HTML", "CSS", "JavaScript"]
-  }
+  // {
+  //   title: "Taurizano Corp.",
+  //   link: "https://www.taurizano.com/",
+  //   linkLabel: "Visit Site →",
+  //   image: "taurizano.png",
+  //   desc: "A full website design and development for the real estate company Taurizano Corp.",
+  //   tags: ["Design & Development","HTML", "CSS", "JavaScript"]
+  // }
 ];
 
     // ── Panel elements ──
